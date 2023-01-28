@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-v1
-  namespace: web
+  namespace: web-tier
   labels:
     app: guestbook
     version: "1.0"
