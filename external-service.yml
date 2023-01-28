@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: external-service
-  namespace: web
+  namespace: web-tier
 spec:
   type: ExternalName
   externalName: redis-master.db.svc.cluster.local
