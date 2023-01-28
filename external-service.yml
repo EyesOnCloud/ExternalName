@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: external-service
+  namespace: web
+spec:
+  type: ExternalName
+  externalName: redis-master.db.svc.cluster.local
+  ports:
+  - port: 6379
